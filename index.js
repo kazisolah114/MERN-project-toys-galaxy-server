@@ -27,7 +27,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     const toysCollection = client.db("toysDB").collection("toysbeast")
-    // Connect the client to the server	(optional starting in v4.7 sssdsdsdd)
+    // Connect the client to the server	(optional starting in v4.7 sd)
     // await client.connect();
 
     app.post('/addtoys', async(req, res) => {
