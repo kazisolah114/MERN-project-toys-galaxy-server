@@ -8,10 +8,6 @@ app.use(express.json());
 
 
 
-// toysbeast
-// sdYv3auBnQbhON2n
-
-
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://toysbeast:sdYv3auBnQbhON2n@cluster0.xjdofai.mongodb.net/?retryWrites=true&w=majority`;
 
